@@ -1,0 +1,41 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 29 Nov 2017 00:17:40 at http://codepassenger.com/html/bigshow/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://codepassenger.com/html/bigshow/ -O1 "E:\01.Web\BigShow" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+00:19:49	Warning: 	file not stored in cache due to bogus state (broken size, expected 849440 got 617795): codepassenger.com/html/bigshow/images/movies/upcomming-featured.png
+00:21:35	Warning: 	file not stored in cache due to bogus state (broken size, expected 1019774 got 585538): codepassenger.com/html/bigshow/images/bg/page-header.png
+00:21:38	Warning: 	file not stored in cache due to bogus state (broken size, expected 1741705 got 607042): codepassenger.com/html/bigshow/images/slider/1.png
+00:21:42	Warning: 	file not stored in cache due to bogus state (broken size, expected 1704844 got 556866): codepassenger.com/html/bigshow/images/slider/3.png
+00:23:12	Warning: 	file not stored in cache due to bogus state (broken size, expected 590399 got 585539): codepassenger.com/html/bigshow/images/bg/single-page-header.png
+00:25:09	Warning: 	file not stored in cache due to bogus state (broken size, expected 2900838 got 1953602): codepassenger.com/html/bigshow/images/slider/2.png
+00:25:09	Warning: 	file not stored in cache due to bogus state (broken size, expected 970309 got 585539): codepassenger.com/html/bigshow/images/movies/movie-single.png
+00:25:24	Warning: 	file not stored in cache due to bogus state (broken size, expected 742630 got 524099): codepassenger.com/html/bigshow/images/slider/single-1.png
+00:25:28	Warning: 	file not stored in cache due to bogus state (broken size, expected 606500 got 519491): codepassenger.com/html/bigshow/images/slider/single-2.png
+00:27:24	Error: 	"Not Found" (404) at link codepassenger.com/html/bigshow/movie.html (from codepassenger.com/html/bigshow/)
+00:27:24	Warning: 	Retry after error -4 (Incorrect length (617795 Bytes, 849440 expected)) at link codepassenger.com/html/bigshow/images/movies/upcomming-featured.png (from codepassenger.com/html/bigshow/)
+00:27:26	Warning: 	File not parsed, looks like binary: codepassenger.com/html/bigshow/assets/fonts/glyphicons-halflings-regular.woff2
+00:27:26	Warning: 	File not parsed, looks like binary: codepassenger.com/html/bigshow/assets/fonts/fontawesome-webfont.woff2?v=4.7.0
+00:27:26	Error: 	"Not Found" (404) at link codepassenger.com/html/bigshow/assets/img/grabbing.png (from codepassenger.com/html/bigshow/assets/css/owl.carousel.css)
+00:27:26	Warning: 	Retry after error -4 (Incorrect length (585538 Bytes, 1019774 expected)) at link codepassenger.com/html/bigshow/images/bg/page-header.png (from codepassenger.com/html/bigshow/assets/css/style.css)
+00:27:51	Warning: 	file not stored in cache due to bogus state (broken size, expected 579526 got 574275): codepassenger.com/html/bigshow/images/slider/single-3.png
+00:27:51	Warning: 	Retry after error -4 (Incorrect length (607042 Bytes, 1741705 expected)) at link codepassenger.com/html/bigshow/images/slider/1.png (from codepassenger.com/html/bigshow/assets/css/style.css)
+00:28:02	Warning: 	Retry after error -4 (Incorrect length (1953602 Bytes, 2900838 expected)) at link codepassenger.com/html/bigshow/images/slider/2.png (from codepassenger.com/html/bigshow/assets/css/style.css)
+00:28:14	Warning: 	Retry after error -4 (Incorrect length (556866 Bytes, 1704844 expected)) at link codepassenger.com/html/bigshow/images/slider/3.png (from codepassenger.com/html/bigshow/assets/css/style.css)
+00:28:37	Warning: 	Retry after error -4 (Incorrect length (585539 Bytes, 590399 expected)) at link codepassenger.com/html/bigshow/images/bg/single-page-header.png (from codepassenger.com/html/bigshow/assets/css/style.css)
+00:28:39	Warning: 	Retry after error -4 (Incorrect length (585539 Bytes, 970309 expected)) at link codepassenger.com/html/bigshow/images/movies/movie-single.png (from codepassenger.com/html/bigshow/movie-detail.html)
+00:29:20	Warning: 	file not stored in cache due to bogus state (broken size, expected 1741705 got 1160706): codepassenger.com/html/bigshow/images/slider/1.png
+00:29:20	Warning: 	Retry after error -4 (Incorrect length (524099 Bytes, 742630 expected)) at link codepassenger.com/html/bigshow/images/slider/single-1.png (from codepassenger.com/html/bigshow/movie-detail.html)
+00:29:38	Warning: 	file not stored in cache due to bogus state (broken size, expected 2900838 got 2548226): codepassenger.com/html/bigshow/images/slider/2.png
+00:29:38	Warning: 	Retry after error -4 (Incorrect length (519491 Bytes, 606500 expected)) at link codepassenger.com/html/bigshow/images/slider/single-2.png (from codepassenger.com/html/bigshow/movie-detail.html)
+00:29:41	Warning: 	Retry after error -4 (Incorrect length (574275 Bytes, 579526 expected)) at link codepassenger.com/html/bigshow/images/slider/single-3.png (from codepassenger.com/html/bigshow/celebrity-detail.html)
+00:29:43	Warning: 	Retry after error -4 (Incorrect length (1160706 Bytes, 1741705 expected)) at link codepassenger.com/html/bigshow/images/slider/1.png (from codepassenger.com/html/bigshow/assets/css/style.css)
+00:29:49	Warning: 	file not stored in cache due to bogus state (broken size, expected 1704844 got 1151490): codepassenger.com/html/bigshow/images/slider/3.png
+00:29:49	Warning: 	Retry after error -4 (Incorrect length (2548226 Bytes, 2900838 expected)) at link codepassenger.com/html/bigshow/images/slider/2.png (from codepassenger.com/html/bigshow/assets/css/style.css)
+00:29:53	Warning: 	Retry after error -4 (Incorrect length (1151490 Bytes, 1704844 expected)) at link codepassenger.com/html/bigshow/images/slider/3.png (from codepassenger.com/html/bigshow/assets/css/style.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 13 minutes 10 seconds : 121 links scanned, 105 files written (19857772 bytes overall) [19662211 bytes received at 24888 bytes/sec], 257459 bytes transferred using HTTP compression in 11 files, ratio 14%
+(2 errors, 28 warnings, 0 messages)
